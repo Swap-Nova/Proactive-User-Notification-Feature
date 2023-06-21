@@ -48,4 +48,8 @@ nodemailer.createTestAccount()
 {
     "msg": "You should receive an e-mail"
 }
-``` 
+```
+<img width="858" alt="Screenshot 2023-06-21 at 7 11 08 PM" src="https://github.com/Swap-Nova/Proactive-User-Notification-Feature/assets/92979885/b4e0627d-6230-4d5c-9fd5-608b5c343bc2">
+
+### Automated Mails sent to User:
+<img width="1048" alt="Screenshot 2023-06-21 at 7 12 54 PM" src="https://github.com/Swap-Nova/Proactive-User-Notification-Feature/assets/92979885/6fd425f8-fb62-4de8-9bad-b8444b176788">
