@@ -8,18 +8,18 @@
 ## Technologies Used and their application functions:
 1. Selenium & Python
 - Helps to automate the login process to LinkedIn.
-- Moreover it  helps in navigating to the LinkedIn profile page.
+- Moreover, it  helps in navigating to the LinkedIn profile page.
 - Also, fetches the number of unread messages and notifications from the profile. Store this data in the Excel file along with the timestamp.
 
 2. SMTP
-- It is an library that helps to connect with gmail account and then the backend application can send the mail to the specific email address.
+- It is a library that helps to connect with a Gmail account and then the backend application can send the mail to the specific email address.
 
 3. HTML & Excel Interaction
-- For building an mail body that will organize the content of the mail in order for the user to able to read and understand the message.
+- For building a mail body that will organize the content of the mail in order for the user to able to read and understand the message.
 
 
 ## Work-flow:
-1. It imports the webdriver module from the selenium library. This module provides the necessary methods to automate browser actions.
+1. It imports the webdriver module from the Selenium library. This module provides the necessary methods to automate browser actions.
 
 2. It defines a function called get_linkedin_notifications that opens a Chrome browser using the webdriver.Chrome() method and navigates to the LinkedIn website.
 
@@ -38,3 +38,6 @@
 9. The main function is defined, which serves as the entry point for the script.
 
 10. In the main function, it calls the get_linkedin_notifications and get_linkedin_messages functions to retrieve the counts.
+
+## Unread Notifications & Messages of the registered users:
+<img width="1101" alt="Screenshot 2023-06-21 at 7 15 16 PM" src="https://github.com/Swap-Nova/Proactive-User-Notification-Feature/assets/92979885/13f2b84e-796e-4a01-a570-513caecd29a4">
