@@ -28,3 +28,7 @@ npm install axios
 const decryptedBytes = CryptoJS.AES.decrypt(encryptedPassword, 'your-encryption-key');
 const decryptedPassword = decryptedBytes.toString(CryptoJS.enc.Utf8);
 ```
+
+## Data Collection:
+- The data is collected in the spreadsheet and moreover, the password is encrypted:
+<img width="1273" alt="Screenshot 2023-06-21 at 7 09 02 PM" src="https://github.com/Swap-Nova/Proactive-User-Notification-Feature/assets/92979885/cdad6b6b-93e6-4943-806a-b49cf5ec5f15">
